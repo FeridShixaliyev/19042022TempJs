@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+           <div class="col-md-6 main">
+               <div class="col-md-6 first">
+                <label for="inputText" class="form-label">City:</label>
+                <input type="text" class="form-control" id="inputText" aria-describedby="emailHelp">
+ 
+                <p>City: </p>
+                <p>Country: </p>
+                <p>Weathet Forecast: </p>
+                <p>Sky Condition: </p>
+               </div>
+               
+               
+               <div class="col-md-6 second">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Fahrenheit</option>
+                    <option selected>Temprature</option>
+                  </select>
+                 <button type="submit" class="btn btn-primary">Search</button>
+               </div>
+           </div>
+           <div class="col-md-6"></div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

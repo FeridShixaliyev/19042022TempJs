@@ -1,0 +1,25 @@
+.row{
+    margin-top: 30px;
+}
+
+.col-md-6 input{
+    width: 200px;
+}
+.col-md-6 p{
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+}
+.second{
+    padding-top: 30px;
+    display: flex;
+}
+.second select{
+    width: 125px;
+    height: 39px;
+    margin-right: 18px;
+}
+.second button{
+    height: 39px;
+}
